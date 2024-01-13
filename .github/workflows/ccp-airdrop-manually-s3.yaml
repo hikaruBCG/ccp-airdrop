@@ -9,7 +9,7 @@ jobs:
     
     env:
       mnemonic: ${{ secrets.mnemonic }}
-      group: ${{ secrets.group || 1 }}
+      group: ${{ secrets.group || 2 }}
       airdropInterval: 3
 
     steps:
