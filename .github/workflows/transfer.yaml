@@ -9,7 +9,7 @@ jobs:
     
     env:
       mnemonic: ${{ secrets.mnemonic }}
-      group: ${{ secrets.group || 2 }}
+      group: ${{ secrets.group || 1 }}
 
     steps:
       - name: Checkout Repository
